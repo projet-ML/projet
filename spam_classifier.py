@@ -63,4 +63,4 @@ classifier.fit(counts, targets)
 examples = ['Free Viagra now!!!', "Hi Bob, how about a game of golf tomorrow?"]
 example_counts = vectorizer.transform(examples)
 predictions = classifier.predict(example_counts)
-print (predictions)
+print predictions
