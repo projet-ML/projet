@@ -21,3 +21,4 @@ Le fichcier de data contient 5572 lignes et un message par ligne. Chaque ligne e
 - Support Vector Machine (SVM)
 - Random Forest
 
+Vers la fin nous réalisons la fonction d’efficacité du récepteur, plus fréquemment désignée sous le terme « courbe ROC » (de l’anglais receiver operating characteristic). Elle permet la détermination et la comparaison des performances diagnostiques de plusieurs tests à l'aide de l'évaluation des aires sous la courbe. 
