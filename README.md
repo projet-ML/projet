@@ -1,5 +1,7 @@
 # PROJET ML
 
+![picture](https://miro.medium.com/max/1400/1*hsyCZOYoGrX6BJsj4Lgrhg.png)
+
 Nous faisons l'analyse et la comparaison entre plusieurs algorithmes travaillant sur le problème de detection de spam dans les messages. 
 Pour commencer, une analyse de la data s'avère nécessaire. 
 
@@ -20,5 +22,6 @@ Le fichcier de data contient 5572 lignes et un message par ligne. Chaque ligne e
 - Decision Tree learning
 - Support Vector Machine (SVM)
 - Random Forest
+- Logistic Regression
 
 Vers la fin nous réalisons la fonction d’efficacité du récepteur, plus fréquemment désignée sous le terme « courbe ROC » (de l’anglais receiver operating characteristic). Elle permet la détermination et la comparaison des performances diagnostiques de plusieurs tests à l'aide de l'évaluation des aires sous la courbe. 
