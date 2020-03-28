@@ -1,17 +1,24 @@
 # PROJET ML
 
-Le Naive Bayes Classifier est un algorithme de Machine Learning particulièrement prisé pour l’analyse et la classification de texte. Nous mettons en place un “SPAM Filter” en utilisant le Naive Bayes Classifier. Notre classifieur se basera sur Python et sa librairie de Machine Learning : “Sickit Learn”.  L’algorithme prendra en entrée un e-mail et nous indiquera s’il s’agit d’un mail ou non.  C’est parti !
-
-# Présentation des données
-
-Naive Bayes est un algorithme d’apprentissage supervisé. De ce fait, Il faudra qu’on lui fournisse une base de données d’apprentissage supervisé.
+Nous faisons l'analyse et la comparaison entre plusieurs algorithmes travaillant sur le problème de detection de spam dans les messages. 
+Pour commencer, une analyse de la data s'avère nécessaire. 
 
 Notre jeu d’apprentissage sera une collection de mails. Pour chacun d’eux, on indiquera s’il s’agit d’un SPAM ou non.
 
-Notre Training Set est composé de :
+Le fichcier de data contient 5572 lignes et un message par ligne. Chaque ligne est composée de 2 colonnes : Label (spam ou ham) et Message (le message en clair).
 
-500 mails Spam
+# Notre Training Set est composé de :
 
-2500 mails Non spam (Ham)
+747 mails Spam
 
+4825 mails Non spam (Ham)
 
+# Les méthodes réalisées : 
+
+- Naive Bayes spam filtering
+- K-Nearest Neighbors algorithm
+- Decision Tree learning
+- Support Vector Machine (SVM)
+- Random Forest
+
+Vers la fin nous réalisons la fonction d’efficacité du récepteur, plus fréquemment désignée sous le terme « courbe ROC » (de l’anglais receiver operating characteristic). Elle permet la détermination et la comparaison des performances diagnostiques de plusieurs tests à l'aide de l'évaluation des aires sous la courbe. 
