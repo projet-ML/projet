@@ -23,6 +23,9 @@ Le fichcier de data contient 5572 lignes et un message par ligne. Chaque ligne e
 - Support Vector Machine (SVM)
 - Random Forest
 - Logistic Regression
+- Neural Network
 ![picture](https://imagizer.imageshack.com/img924/1318/dKkDeL.png)
 
-Vers la fin nous réalisons la fonction d’efficacité du récepteur, plus fréquemment désignée sous le terme « courbe ROC » (de l’anglais receiver operating characteristic). Elle permet la détermination et la comparaison des performances diagnostiques de plusieurs tests à l'aide de l'évaluation des aires sous la courbe. 
+Nous avons aussi réalisé la fonction d’efficacité du récepteur, plus fréquemment désignée sous le terme « courbe ROC » (de l’anglais receiver operating characteristic). Elle permet la détermination et la comparaison des performances diagnostiques de plusieurs tests à l'aide de l'évaluation des aires sous la courbe. 
+
+# N.B : Le test de la méthode Neural Natwork se fait vers la fin. c'est une implementation simple de l'algorithme Neural Network faite par Python et Numpy.Le but de cette partie était de comprendre l'architecture complète d'un réseau de neurones et de décomposer visuellement ce qui se passe pendant le training pour reconnaître les spams / non spams.
